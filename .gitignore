@@ -1,0 +1,8 @@
+node_modules
+*.log
+*.txt
+*.swp
+*.env
+dist
+.vscode
+.sh
