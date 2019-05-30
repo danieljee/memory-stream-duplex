@@ -4,7 +4,7 @@
   "description": "In-memory duplex streams (Duplex and Transform)",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && tsc"
+    "build": "ls | grep -E '\\.js$' | xargs rm -f && tsc"
   },
   "author": "Daniel Jee",
   "license": "ISC",
